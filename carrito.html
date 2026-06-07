@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Carrito | CHANEL</title>
+
+    <link rel="stylesheet"
+          href="css/styles.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            CHANEL
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html#productos">
+                    Colección
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <main class="checkout-container">
+
+        <h1>Mi Carrito</h1>
+
+        <div class="checkout-layout">
+
+            <!-- RESUMEN -->
+
+            <section class="cart-summary">
+
+                <h2>Resumen del Pedido</h2>
+
+                <div id="cart-items">
+
+                </div>
+
+                <div class="checkout-total">
+
+                    Total:
+                    $
+                    <span id="total">
+                        0
+                    </span>
+
+                </div>
+
+                <button
+                    id="clear-cart"
+                    class="danger-btn">
+
+                    Vaciar Carrito
+
+                </button>
+
+            </section>
+
+            <!-- FORMULARIO -->
+
+            <section class="checkout-form-section">
+
+                <h2>Datos de Compra</h2>
+
+                <form id="checkout-form">
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Nombre Completo">
+
+                    <input
+                        type="email"
+                        id="correo"
+                        placeholder="Correo Electrónico">
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        placeholder="Teléfono">
+
+                    <input
+                        type="text"
+                        id="direccion"
+                        placeholder="Dirección">
+
+                    <input
+                        type="text"
+                        id="ciudad"
+                        placeholder="Ciudad">
+
+                    <select id="pago">
+
+                        <option value="">
+                            Método de Pago
+                        </option>
+
+                        <option>
+                            Tarjeta de Crédito
+                        </option>
+
+                        <option>
+                            Transferencia Bancaria
+                        </option>
+
+                        <option>
+                            Pago Contra Entrega
+                        </option>
+
+                    </select>
+
+                    <button
+                        type="submit"
+                        class="buy-btn">
+
+                        Finalizar Compra
+
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <h3>CHANEL Fragrances</h3>
+
+        <p>
+            Proyecto académico desarrollado con HTML, CSS y JavaScript.
+        </p>
+
+        <p>
+            © 2026 Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+    <script src="js/carrito.js"></script>
+
+</body>
+
+</html>
