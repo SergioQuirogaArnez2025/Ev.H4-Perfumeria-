@@ -76,11 +76,7 @@ El objetivo es simular una experiencia básica de compra en línea mediante una 
 
 Enlace de Netlify:
 
-(Pegar aquí el enlace cuando el proyecto sea publicado)
-
-Ejemplo:
-
-https://mi-proyecto.netlify.app
+https://keen-vacherin-f5e3d8.netlify.app
 
 ---
 
